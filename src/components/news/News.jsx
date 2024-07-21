@@ -6,7 +6,7 @@ export class News extends Component {
     return (
       <section>
         <div className="container">
-            <h2 className='text-center m-3'>News Page</h2>
+            <h2 className='text-center m-3'>News Categoriys</h2>
             <div className="row">
             {news.map((el, i) => (
               <div key={i} className="col-12 col-sm-6 col-md-4 col-lg-3">
